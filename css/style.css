@@ -1,3 +1,82 @@
+
+
+html {
+  background-color: gainsboro;
+  width: 70%;
+  margin: 0 auto;
+  /*border:1px solid black;*/
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  /*border:1px solid black;*/
+}
+
+.SF-NY-Lond {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 230px;
+  height: 240px;
+}
+
+.Nap-Son-SF {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+p, h1, h2 {
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
 h1 {
-  color: salmon;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 13px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.guidebooks {
+  border: 1px solid black;
+  margin: 20px auto;
+  background-color: white;
+  font-weight: 700;
+  width: 40%;
+}
+
+.footer {
+  border: 1px solid black;
+  margin: 20px auto;
+  background-color: white;
+  font-weight: 700;
+  width: 40%;
+}
+
+.img-src {
+  position: relative;
+}
+
+.img-text {
+  position: absolute;
+  transform: translate(85px, -120px);
+  color: white;
+  font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
 }
